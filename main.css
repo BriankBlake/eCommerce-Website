@@ -1,3 +1,13 @@
+*,
+*::before,
+*after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+
 html{
     box-sizing: border-box;
 }
@@ -24,6 +34,68 @@ main section{
     padding: 0px 2%;
 }
 
-.header_container{
-    
+.header_container strong{
+    font-size: smaller;
+    margin-left: 20px;
+
+}
+
+.logo_image{
+    height: 30px;
+}
+
+nav li{
+    display: inline;
+    font-size: small;
+    margin-right: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#search{
+    background-image: url("images/1200px-Google_Magnifying_Glass.svg.png");
+    background-position: right;
+    padding-left: 30px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+
+}
+
+.hr_header{
+    border: 2px solid black;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+.home{
+    background-image: url("images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.home_container{
+    color: white;
+    margin-left: 2em;
+    font-size: xx-large;
+    font-family: 'Segoe UI';
+}
+
+.home2_container{
+    color: white;
+    margin-top: 8em;
+    margin-right: 2em;
+    font-size: xx-large;
+    text-align: right;
+}
+
+#text_right{
+    margin-right: 3em; 
 }
