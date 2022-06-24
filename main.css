@@ -37,7 +37,9 @@ main section{
 .header_container strong{
     font-size: smaller;
     margin-left: 20px;
-
+    background-color: white;
+    position: relative;
+    padding: 1rem;
 }
 
 .logo_image{
@@ -99,3 +101,39 @@ nav li a{
 #text_right{
     margin-right: 3em; 
 }
+
+.about{
+    padding: 40px;
+}
+
+.about img{
+    float: left;
+    width: 350px;
+    height: 490px;
+    margin: 30px;
+}
+
+#float_right{
+    float: right;
+    width: 460px;
+    height: 608px;
+    margin-right: 225px;
+}
+
+#about1{
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#about2{
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+#about3{
+    width: 450px;
+    margin-left: 500px;
+}
+
